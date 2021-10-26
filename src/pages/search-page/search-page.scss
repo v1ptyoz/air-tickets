@@ -1,0 +1,15 @@
+.search-page {
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.search-page__wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  aside {
+    max-width: 230px;
+    flex: 1;
+  }
+}

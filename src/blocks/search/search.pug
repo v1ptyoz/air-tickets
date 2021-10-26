@@ -1,0 +1,13 @@
+include ../../blocks/checkbox/checkbox-input
+
+mixin search
+    div.search
+        form.search__form
+            legend.search__header Количество пересадок
+            +checkbox("Все", "all")
+            +checkbox("Без пересадок", "0")
+            +checkbox("1 пересадка", "1")
+            +checkbox("2 пересадки", "2")
+            +checkbox("3 пересадки", "3")
+
+

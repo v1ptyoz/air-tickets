@@ -1,0 +1,8 @@
+mixin time-filter
+    ul.time-filter 
+        li.time-filter__item.time-filter__item--active
+            button.time-filter__button(data-cheap) Самый дешевый
+        li.time-filter__item
+            button.time-filter__button(data-fast) Самый быстрый
+        li.time-filter__item(disabled)
+            button.time-filter__button(data-optimal disabled) Оптимальный

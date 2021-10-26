@@ -1,0 +1,8 @@
+.tickets {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0;
+  list-style: none;
+  max-width: 500px;
+}
